@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .formBox {
+            margin-top: 0px;
+            padding: 10px;
+        }
+        label {
+            font-size: 15px;
+            text-transform: captilise;
+        }
+        .formBox h2 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 45px;
+            text-transform: uppercase;
+            font-size: 24px;
+        }
+        .inputBox {
+            position: relative;
+            box-sizing: content-box;
+            margin-bottom: -2px;
+        }
+        .inputBox .inputText {
+            position: absolute;
+            font-size: 15px;
+            line-height: 10px;
+            transition: 0.5s;
+            opacity: 0.5;
+        }
+        .inputBox .input {
+            position: relative;
+            width: 100%;
+            height: 25px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 24px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        }
+        .focus .inputText {
+            transform: translateY(-30px);
+            font-size: 18px;
+            opacity: 1;
+            color: #00bcd4;
+        }
+        .button {
+            width: 57%;
+            height: 42px;
+            border: none;
+            outline: none;
+            background: #034361;
+            color: #fff;
+            left: 63.2vw;
+            top: -2vw;
+            position: relative;
+            // border-radius: 0px;
+        }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">Refer a Friend</h5>
+          <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="formBox">
+            <form>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="inputBox ">
+                            <label>Name</label>
+                            <div class="inputText">Emmily Smith</div>
+                            <input type="text" name="" class="input">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="inputBox">
+                            <label>EmailAddress</label>
+                            <div class="inputText">emmysmith@email.com</div>
+                            <input type="text" name="" class="input">
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="inputBox">
+                            <label>Contact Number</label>
+                            <div class="inputText">+911 11 12345678</div>
+                            <input type="text" name="" class="input">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">CANCEL</button>
+          <button type="button" class="btn btn-info" data-dismiss="modal">REFER</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+table,
+ul,
+li,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.line1 p {
+    width: 262px;
+    padding-left: 2vw;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(3, 3, 37);
+}
+
+.line p {
+    width: 255px;
+    padding-left: 2vw;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(3, 3, 37);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    width: 700px;
+    height: 20px;
+    padding: 0.5vw;
+    border-radius: 10px;
+}
+
+.btng {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.butt1 {
+    position: relative;
+    top: 150px;
+    margin-left: 45vw;
+    font-weight: 600;
+    color: rgb(4, 4, 71);
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.card-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 15%;
+    height: 40%;
+    padding: 16px;
+    margin: 16.5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(199, 197, 197);
+    /* box-shadow: 2px solid; */
+    border-radius: 2%;
+}
+
+@media only screen and (max-width: 600px) {}
+
+.card-header {
+    flex: 1 5%;
+}
+
+h2 {
+    color: rgb(5, 5, 83);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: 700;
+}
+
+.card-text {
+    flex: 1 16%;
+}
+
+.mas1,
+.flag,
+.exp {
+    margin: 3px;
+    padding: 2px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.card-footer {
+    flex: 1 10%;
+}
+
+.ref {
+    padding: 0.5vw;
+    color: rgb(17, 120, 160);
+    font-family: "Times New Roman", Times, serif;
+}
+
+button {
+    background-color: rgb(14, 8, 65);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 25px;
+    cursor: pointer;
+    /* float: right; */
+}
+
+.checkbox1 {
+    margin: 15px 21px;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vw;
+    font-weight: 600;
+    color: rgb(4, 4, 71);
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 45px;
+    padding-right: 45px;
+}
